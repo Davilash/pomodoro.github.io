@@ -1,0 +1,48 @@
+body {
+  background: blueviolet;
+  font-family: "Times New Roman", Times, serif;
+}
+
+.heading {
+  color: white;
+}
+
+.row {
+  width: 100%;
+}
+
+.timer {
+  color: whitesmoke;
+  text-align: center;
+  width: 20rem;
+  height: 20rem;
+  border: 5px solid white;
+  border-radius: 10rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.fa-play,
+.fa-redo-alt {
+  color: white;
+  border: 2px solid transparent;
+  padding: 1rem;
+  border-radius: 2rem;
+}
+
+.fa-play:hover,
+.fa-redo-alt:hover {
+  color: white;
+  border: 2px solid white;
+  transition: 0.3s ease-in-out;
+}
+
+.show_message {
+  display: block;
+  padding: 1rem 0;
+  color: brown;
+  background: white;
+  border-radius: 0.5rem;
+  transition: 0.5s ease;
+}
